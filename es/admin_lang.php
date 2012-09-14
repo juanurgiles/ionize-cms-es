@@ -241,7 +241,7 @@ $lang['ionize_label_set_offline'] = 'Establecer Fuera de línea';
 $lang['ionize_label_set_online'] = 'Establecer EnLínea';
 $lang['ionize_label_edit'] = 'Editar';
 $lang['ionize_label_delete'] = 'Borrar';
-$lang['ionize_label_unlink'] = 'Delink';
+$lang['ionize_label_unlink'] = 'Quiitar enlace';
 $lang['ionize_label_status'] = 'Estado';
 $lang['ionize_label_max_upload_size'] = 'Subida máxima';
 $lang['ionize_label_file_uploads'] = 'Subir ?';
@@ -252,7 +252,7 @@ $lang['ionize_label_drop_page_here'] = 'arrastrar un link aquí...';
 $lang['ionize_label_drop_article_here'] = 'arrastrar un artículo aqui...';
 $lang['ionize_label_add_link'] = 'Añadir link';
 $lang['ionize_label_url'] = 'URL';
-$lang['ionize_label_see_online'] = 'Mirar enline';
+$lang['ionize_label_see_online'] = 'Mirar en linea';
 $lang['ionize_label_flag'] = 'Bandera';
 $lang['ionize_label_flags'] = 'Banderas';
 $lang['ionize_label_edit_flags'] = 'Editar banderas';
@@ -363,9 +363,9 @@ $lang['ionize_message_missing_params'] = 'Ajustes faltantes';
 $lang['ionize_message_operation_ok'] = 'Operación OK';
 $lang['ionize_message_operation_nok'] = 'Ha fallado la operación';
 $lang['ionize_message_delete_installer'] = 'IMPORTANTE : <br/>Por razones de seguridad, por favor borrar la carpeta "/install"</b> .';
-$lang['ionize_message_no_circular_link'] = 'Circular link are not allowed';
+$lang['ionize_message_no_circular_link'] = 'No se permite link circular';
 $lang['ionize_message_link_added'] = 'Link añadido';
-$lang['ionize_message_target_link_not_unique'] = 'The target element must be unique in the tree!';
+$lang['ionize_message_target_link_not_unique'] = 'El elemento de destino debe ser único en el arbol!';
 $lang['button_delete_installer_done_admin'] = 'Bien! Ir al Panel del administrador';
 $lang['button_delete_installer_done_site'] = 'Bien! Ir al website';
 $lang['ionize_message_item_used_by_data_no_delete'] = 'Este item esta en uso y no puede ser borrado';
@@ -390,27 +390,27 @@ $lang['ionize_message_no_languages'] = '<strong>No existe Lenguaje</strong>. <br
 $lang['ionize_message_lang_saved'] = 'Lenguaje guardado';
 $lang['ionize_message_lang_not_saved'] = 'Lenguaje no guardado';
 $lang['ionize_message_lang_file_not_saved'] = 'Error : No se puede escribir en application/config/language.php';
-$lang['ionize_message_lang_code_already_exists'] = 'This lang code already exists';
-$lang['ionize_message_lang_not_deleted'] = 'Language not deleted';
-$lang['ionize_message_lang_deleted'] = 'Language deleted';
-$lang['ionize_message_lang_ordered'] = 'Languages ordered';
-$lang['ionize_message_lang_not_ordered'] = 'Languages not ordered';
-$lang['ionize_message_lang_updated'] = 'Languages updated';
-$lang['ionize_notify_advanced_language'] = 'Use these functions only if you know what you are doing.';
-$lang['ionize_button_clean_lang_tables'] = 'Clean lang tables';
+$lang['ionize_message_lang_code_already_exists'] = 'Este código de lenguaje ya existe';
+$lang['ionize_message_lang_not_deleted'] = 'Lenguaje no borrado';
+$lang['ionize_message_lang_deleted'] = 'Lenguaje borrado';
+$lang['ionize_message_lang_ordered'] = 'Lenguajes ordenados';
+$lang['ionize_message_lang_not_ordered'] = 'Lenguajes no ordenados';
+$lang['ionize_message_lang_updated'] = 'Lenguajes actualizados';
+$lang['ionize_notify_advanced_language'] = 'Utilice estas funciones sólo si usted sabe lo que está haciendo.';
+$lang['ionize_button_clean_lang_tables'] = 'Limpiar tables de lenguaje';
 $lang['ionize_button_copy_content'] = 'Copiar contenido';
-$lang['ionize_help_clean_lang_tables'] = 'Clean the content of lang tables by removing all content for non existing languages.';
-$lang['ionize_help_copy_content'] = 'Copy the element content from one language to another. Copy of all content (titles, subtitle, content, etc.)';
-$lang['ionize_help_copy_all_content'] = 'Copy the whole website content from one language to another. Doesn\'t replace existing content';
-$lang['ionize_help_copy_article_content'] = 'Also copy content for linked articles';
-$lang['ionize_confirmation_clean_lang'] = 'All the content of not defined language will be removed from lang tables...';
-$lang['ionize_message_lang_tables_cleaned'] = 'Content tables cleaned';
-$lang['ionize_message_article_content_copied'] = 'Article content copied';
-$lang['ionize_message_source_destination_lang_not_different'] = 'Source and destination language must be different!';
-$lang['ionize_message_page_content_copied'] = 'Page content copied';
-$lang['ionize_message_page_article_content_copied'] = 'Page & articles content copied';
-$lang['ionize_message_confirm_copy_whole_content'] = 'Do you really want to copy the whole content to this language?';
-$lang['ionize_message_lang_content_copied'] = 'Lang content copy successful';
+$lang['ionize_help_clean_lang_tables'] = 'Limpie el contenido de las tablas de lenguaje mediante la eliminación de todos los contenidos para lenguajes no existentes.';
+$lang['ionize_help_copy_content'] = 'Copiar el contenido de leemento desde un lenguaje a otro. Copiar de todo el contenido (título, subtítulo, contenido, etc.)';
+$lang['ionize_help_copy_all_content'] = 'Copie el contenido de todo el sitio web de un idioma a otro. No reemplaza el contenido existente';
+$lang['ionize_help_copy_article_content'] = 'Tambien copiar el contenido para los artículos enlazados';
+$lang['ionize_confirmation_clean_lang'] = 'Todo el contenido de un lenguaje no definido podría ser removido desde las tablas de lenguaje...';
+$lang['ionize_message_lang_tables_cleaned'] = 'Tablas de contenido limpiadas';
+$lang['ionize_message_article_content_copied'] = 'Contenido de artículo copiado';
+$lang['ionize_message_source_destination_lang_not_different'] = 'Lenguaje fuente y destino podrían ser diferentes!';
+$lang['ionize_message_page_content_copied'] = 'Contenido de página copiado';
+$lang['ionize_message_page_article_content_copied'] = 'Página y contenido de artículos copiados ';
+$lang['ionize_message_confirm_copy_whole_content'] = '¿Estás seguro que quieres copiar todo el contenido de este idioma?';
+$lang['ionize_message_lang_content_copied'] = 'Completado la copia del contenido de lenguaje.';
 
 
 /*
@@ -521,131 +521,131 @@ $lang['ionize_label_maintenance'] = 'En mantenimiento';
 $lang['ionize_label_maintenance_ips'] = 'Restringir a IPs';
 $lang['ionize_drop_maintenance_page_here'] = 'Arrastrar la pagina de manenimiento aquí...';
 $lang['ionize_label_maintenance_help'] = 'Cuando se activa, la página web se mostrará un mensaje de mantenimiento. Ionizar realizará tareas de mantenimiento.';
-$lang['ionize_label_maintenance_ips_help'] = 'The front-end website will be visible for these IPs only';
+$lang['ionize_label_maintenance_ips_help'] = 'El front-end del sitio web será visible para estas direcciones IP';
 $lang['ionize_label_your_ip'] = 'tu IP';
-$lang['ionize_label_maintenance_page_help'] = 'This page must be set before activating the maintenance mode in order to let Ionize build correctly the plain HTML page.';
-$lang['ionize_message_maintenance_page_curl_error'] = 'The cURL PHP extension needs to be installed';
+$lang['ionize_label_maintenance_page_help'] = 'Esta página se debe establecer antes de activar el modo de mantenimiento con el fin de permitir a Ionize construir correctamente la página HTML normal.';
+$lang['ionize_message_maintenance_page_curl_error'] = 'Las extensiones de cURL PHP necesitan ser instaladas';
 
-$lang['ionize_label_thumb_automatic'] = 'Automatic';
-$lang['ionize_label_files_path'] = 'Media base folder';
-$lang['ionize_label_media_type_picture'] = 'Images extensions';
-$lang['ionize_label_media_type_video'] = 'Videos extensions';
-$lang['ionize_label_media_type_music'] = 'Music extensions';
-$lang['ionize_label_media_type_file'] = 'File extensions';
-$lang['ionize_label_filemanager'] = 'File manager';
-$lang['ionize_label_media_thumb_size'] = 'Thumbnails size';
-$lang['ionize_label_upload_mode'] = 'Upload Mode';
+$lang['ionize_label_thumb_automatic'] = 'Automático';
+$lang['ionize_label_files_path'] = 'Carpeta base de medios';
+$lang['ionize_label_media_type_picture'] = 'Extensiones de imágenes';
+$lang['ionize_label_media_type_video'] = 'Extensiones de videos';
+$lang['ionize_label_media_type_music'] = 'Extensiones de música';
+$lang['ionize_label_media_type_file'] = 'Extensiones de archivos';
+$lang['ionize_label_filemanager'] = 'Manejador de archivos';
+$lang['ionize_label_media_thumb_size'] = 'Tamaño de Thumbnails';
+$lang['ionize_label_upload_mode'] = 'Modo de subida';
 $lang['ionize_label_theme'] = 'Tema';
-$lang['ionize_label_theme_admin'] = 'Admin theme';
-$lang['ionize_label_db_driver'] = 'Driver';
+$lang['ionize_label_theme_admin'] = 'Tema de administrador';
+$lang['ionize_label_db_driver'] = 'Controlador';
 $lang['ionize_label_db_host'] = 'Servidor';
 $lang['ionize_label_db_name'] = 'Database name';
 $lang['ionize_label_db_user'] = 'Usuario';
 $lang['ionize_label_db_pass'] = 'Contraseña';
 $lang['ionize_label_google_analytics'] = 'Google Analytics';
-$lang['ionize_label_tinybuttons'] = 'Toolbar TinyMCE';
-$lang['ionize_label_restore_tinybuttons'] = 'Restore TinyMCE default toolbar';
-$lang['ionize_label_tinybuttons'] = 'Toolbar TinyMCE';
-$lang['ionize_label_tinyblockformats'] = 'TinyMCE Format Select';
-$lang['ionize_label_restore_tinyblockformats'] = 'Restore TinyMCE default Format Select';
+$lang['ionize_label_tinybuttons'] = 'Barra de herramientas TinyMCE';
+$lang['ionize_label_restore_tinybuttons'] = 'Restaurar TinyMCE predeterminada barra de herraientas ';
+$lang['ionize_label_tinybuttons'] = 'Barra de herramientas TinyMCE';
+$lang['ionize_label_tinyblockformats'] = 'Seleccionar Formato TinyMCE ';
+$lang['ionize_label_restore_tinyblockformats'] = 'Restaurar TinyMCE predeterminado Formato seleccionado';
 $lang['ionize_label_ping_url'] = 'URL';
 $lang['ionize_label_sitemap_url'] = 'URL';
 
-$lang['ionize_text_sitemaps_url_list'] = 'List of URLs to add (separated by a carriage return)';
-$lang['ionize_text_ping_url_list'] = 'List of URLs to add (separated by a carriage return)';
+$lang['ionize_text_sitemaps_url_list'] = 'Lista de URLs a añadir to add (separadas por un retorno de carro)';
+$lang['ionize_text_ping_url_list'] = 'Lista de URLs a añadir(separadas por un retorno de carro)';
 
-$lang['ionize_label_smtp_protocol'] = 'Protocol';
+$lang['ionize_label_smtp_protocol'] = 'Protocolo';
 $lang['ionize_label_smtp_host'] = 'Servidor';
 $lang['ionize_label_smtp_user'] = 'Usuario';
 $lang['ionize_label_smtp_pass'] = 'Contraseña';
-$lang['ionize_label_smtp_port'] = 'Port';
+$lang['ionize_label_smtp_port'] = 'Puerto';
 $lang['ionize_label_email_charset'] = 'Charset';
-$lang['ionize_label_email_mailtype'] = 'Format';
-$lang['ionize_label_mailpath'] = 'Mail path';
+$lang['ionize_label_email_mailtype'] = 'Formato';
+$lang['ionize_label_mailpath'] = 'Ruta de correo';
 
-$lang['ionize_label_cache_enabled'] = 'Enabled';
-$lang['ionize_label_cache_expiration'] = 'Time (mins.)';
-$lang['ionize_label_clear_cache'] = 'Clear Cache';
-$lang['ionize_button_clear_cache'] = 'Clear';
+$lang['ionize_label_cache_enabled'] = 'Habilitado';
+$lang['ionize_label_cache_expiration'] = 'Tiempo (mins.)';
+$lang['ionize_label_clear_cache'] = 'Limpiar Cache';
+$lang['ionize_button_clear_cache'] = 'Limpiar';
 
-$lang['ionize_label_thumb_dir'] = 'Folder';
-$lang['ionize_label_thumb_size'] = 'Size';
-$lang['ionize_label_thumb_sizeref'] = 'Reference';
-$lang['ionize_label_thumb_sizeref_width'] = 'Width';
-$lang['ionize_label_thumb_sizeref_height'] = 'Height';
-$lang['ionize_label_thumb_square'] = 'Square';
-$lang['ionize_label_thumb_unsharp'] = 'Unsharp filter';
-$lang['ionize_label_thumb_list'] = 'Picture list';
-$lang['ionize_label_thumb_edition'] = 'Picture edition';
-$lang['ionize_label_thumbs_system'] = 'Picture list / edit';
-$lang['ionize_label_setting_picture_max_width'] = 'Pictures max. Width';
-$lang['ionize_label_setting_picture_max_height'] = 'Pictures max. Height';
-$lang['ionize_label_media_upload_mode'] = 'Upload Mode';
-$lang['ionize_label_media_upload_mode_single'] = 'Single File';
-$lang['ionize_label_media_upload_mode_multiple'] = 'Multiple Files';
-$lang['ionize_button_update_thumbs'] = 'Update existing thumbs';
+$lang['ionize_label_thumb_dir'] = 'Carpeta';
+$lang['ionize_label_thumb_size'] = 'Tamaño';
+$lang['ionize_label_thumb_sizeref'] = 'Referencia';
+$lang['ionize_label_thumb_sizeref_width'] = 'Ancho';
+$lang['ionize_label_thumb_sizeref_height'] = 'Alto';
+$lang['ionize_label_thumb_square'] = 'Cuadro';
+$lang['ionize_label_thumb_unsharp'] = 'Unsharp filtro';
+$lang['ionize_label_thumb_list'] = 'Lista de imágenes';
+$lang['ionize_label_thumb_edition'] = 'Edición de imagen';
+$lang['ionize_label_thumbs_system'] = 'Lista de imagen / editar';
+$lang['ionize_label_setting_picture_max_width'] = 'Imágenes max. Ancho';
+$lang['ionize_label_setting_picture_max_height'] = 'Imágenes max. Alto';
+$lang['ionize_label_media_upload_mode'] = 'Modo de subida';
+$lang['ionize_label_media_upload_mode_single'] = 'Archivo solo';
+$lang['ionize_label_media_upload_mode_multiple'] = 'Múltiples archivos';
+$lang['ionize_button_update_thumbs'] = 'Actualizar existente thumbs';
 
-$lang['ionize_onchange_filemanager'] = 'You have to reload the admin panel (CTRL + R) after saving changes.';
-$lang['ionize_onchange_texteditor'] = 'You have to reload the admin panel (CTRL + R) after saving changes.';
+$lang['ionize_onchange_filemanager'] = 'Hay que volver a cargar el panel de administración (CTRL + R) después de guardar los cambios.';
+$lang['ionize_onchange_texteditor'] = 'Hay que volver a cargar el panel de administración (CTRL + R) después de guardar los cambios.';
 
-$lang['ionize_title_keys'] = 'Keys';
-$lang['ionize_label_antispam_key'] = 'Antispam key';
-$lang['ionize_label_refresh_antispam_key'] = 'Refresh the key';
+$lang['ionize_title_keys'] = 'Claves';
+$lang['ionize_label_antispam_key'] = 'Antispam Clave';
+$lang['ionize_label_refresh_antispam_key'] = 'Actualizar la clave';
 
-$lang['ionize_label_texteditor'] = 'Text editor';
+$lang['ionize_label_texteditor'] = 'Editor de textos';
 
 $lang['ionize_title_db_version'] = 'Database';
 $lang['ionize_title_php_version'] = 'PHP';
 
-$lang['ionize_message_database_not_saved'] = 'Incorrect database settings';
-$lang['ionize_message_database_not_exist'] = 'The selected database doesn\'t exist';
-$lang['ionize_message_database_connection_error'] = 'Connection to the database is not possible';
-$lang['ionize_message_database_saved'] = 'Database settings successfully saved';
+$lang['ionize_message_database_not_saved'] = 'Configuración de base de datos incorrecta.';
+$lang['ionize_message_database_not_exist'] = 'La base de datos seleccionada do existe';
+$lang['ionize_message_database_connection_error'] = 'No es posible conectar a la base de datos.';
+$lang['ionize_message_database_saved'] = 'Configuración de base de datos completamente guardada';
 
-$lang['ionize_message_smtp_not_saved'] = 'Emails settings missing or incorrect';
-$lang['ionize_message_smtp_saved'] = 'Emails settings saved';
+$lang['ionize_message_smtp_not_saved'] = 'Configuraciones de correo no guardadas';
+$lang['ionize_message_smtp_saved'] = 'Configuraciones de correos guardadas';
 
-$lang['ionize_message_thumb_saved'] = 'Thumbnail saved';
-$lang['ionize_message_thumb_not_saved'] = 'Thumbnail not saved';
-$lang['ionize_message_thumb_deleted'] = 'Thumbnail deleted';
-$lang['ionize_message_thumb_not_deleted'] = 'Thumbnail not deleted';
+$lang['ionize_message_thumb_saved'] = 'Thumbnail guardado';
+$lang['ionize_message_thumb_not_saved'] = 'Thumbnail no guardado';
+$lang['ionize_message_thumb_deleted'] = 'Thumbnail borrado';
+$lang['ionize_message_thumb_not_deleted'] = 'Thumbnail no borrado';
 
-$lang['ionize_message_admin_url_error'] = 'The Admin panel URL cannot be empty and must only contains alphanumericals.';
-$lang['ionize_confirm_change_admin_url'] = 'Be sure to remember the new URL ! After save, the Admin panel will reload.';
+$lang['ionize_message_admin_url_error'] = 'La URL del panel de administraión no puede estar vacío y sólo debe contener texto.';
+$lang['ionize_confirm_change_admin_url'] = 'Asegúrese de recordar la nueva URL! Después de salvar, el panel de administración que se recargue.';
 
-$lang['ionize_message_error_no_files_path'] = 'The media folder must be set!';
-$lang['ionize_message_error_writing_file'] = 'File writing error';
-$lang['ionize_message_error_writing_config_file'] = 'application/config/config.php could not be written !';
-$lang['ionize_message_error_writing_medias_file'] = 'application/config/medias.php could not be written !';
-$lang['ionize_message_error_writing_database_file'] = 'application/config/database.php could not be written !';
-$lang['ionize_message_error_writing_email_file'] = 'application/config/email.php could not be written !';
-$lang['ionize_message_error_writing_ionize_file'] = 'application/config/ionize.php could not be written !';
+$lang['ionize_message_error_no_files_path'] = 'Debe ser configurada la carpeta de medios!';
+$lang['ionize_message_error_writing_file'] = 'Error de escritura de archivo';
+$lang['ionize_message_error_writing_config_file'] = 'application/config/config.php podria no ser escrito !';
+$lang['ionize_message_error_writing_medias_file'] = 'application/config/medias.php podria no ser escrito !';
+$lang['ionize_message_error_writing_database_file'] = 'application/config/database.php podria no ser escrito !';
+$lang['ionize_message_error_writing_email_file'] = 'application/config/email.php podria no ser escrito !';
+$lang['ionize_message_error_writing_ionize_file'] = 'application/config/ionize.php podria no ser escrito !';
 
-$lang['ionize_message_cache_saved'] = 'Cache Settings saved.';
-$lang['ionize_message_cache_cleared'] = 'Cache cleared.';
-$lang['ionize_message_urls_saved'] = 'URLs saved';
-$lang['ionize_message_setting_saved'] = 'Setting saved';
+$lang['ionize_message_cache_saved'] = 'Configuración de Cache guardada.';
+$lang['ionize_message_cache_cleared'] = 'Cache guardada.';
+$lang['ionize_message_urls_saved'] = 'URLs guardadas';
+$lang['ionize_message_setting_saved'] = 'Configuración guardada';
 
-$lang['ionize_help_setting_google_analytics'] = 'The complete Google script, as copied from the Google Analytics website';
-$lang['ionize_help_setting_files_path'] = 'Indicates the base media folder. Doesn\'t change the physical folder name';
-$lang['ionize_help_setting_media_type_picture'] = 'File Extensions, comma seperated';
-$lang['ionize_help_setting_media_type_music'] = 'File Extensions, comma seperated';
-$lang['ionize_help_setting_media_type_video'] = 'File Extensions, comma seperated';
-$lang['ionize_help_setting_media_type_file'] = 'File Extensions, comma seperated';
-$lang['ionize_help_media_thumb_size'] = 'Size of system thumbnail, in pixels';
-$lang['ionize_help_tinybuttons'] = 'See TinyMCE documentation';
-$lang['ionize_help_setting_picture_max_height'] = 'Picture which exceed these size will be resized during the Upload process.';
-$lang['ionize_help_setting_picture_max_width'] = 'Picture which exceed these size will be resized during the Upload process.';
-$lang['ionize_help_tinyblockformats'] = 'Default TinyMCE Blocks Format (Select)';
+$lang['ionize_help_setting_google_analytics'] = 'El script completo de Google script, es copiado desde el sitio de Google Analytics ';
+$lang['ionize_help_setting_files_path'] = 'Indicar la carpeta  para medios. No cambia el nombre de la carpeta física';
+$lang['ionize_help_setting_media_type_picture'] = 'Extensiones de archivos, separados por comas';
+$lang['ionize_help_setting_media_type_music'] = 'Extensiones de archivos, separados por comas';
+$lang['ionize_help_setting_media_type_video'] = 'Extensiones de archivos, separados por comas';
+$lang['ionize_help_setting_media_type_file'] = 'Extensiones de archivos, separados por comas';
+$lang['ionize_help_media_thumb_size'] = 'Tamaño de thumbnail, en pixeles';
+$lang['ionize_help_tinybuttons'] = 'Mirar la documentación de TinyMCE ';
+$lang['ionize_help_setting_picture_max_height'] = 'Imagen que supere este alto se puede ser redimensionada durante el proceso de carga.';
+$lang['ionize_help_setting_picture_max_width'] = 'Imagen que superan este ancho se puede cambiar el tamaño durante el proceso de carga.';
+$lang['ionize_help_tinyblockformats'] = 'Formato de bloques predeterminados TinyMCE  (Seleccionar)';
 
-$lang['ionize_help_cache_enabled'] = 'Enable / Disable the cache. Disabling it will clear the existing cache.';
-$lang['ionize_help_cache_expiration'] = 'Number of minutes elements will remain cached between refreshes';
-$lang['ionize_help_clear_cache'] = 'Deletes all the cache files.';
-$lang['ionize_help_article_allowed_tags'] = 'Allowed HTML tags in Articles content';
-$lang['ionize_help_media_upload_mode'] = 'If Multiple File hangs, try Single File (no Flash)';
+$lang['ionize_help_cache_enabled'] = 'Habilitar / Deshabilitar la cache. Al desabilitar podría borrarse la cache existente..';
+$lang['ionize_help_cache_expiration'] = 'Número de elementos de minutos se mantendrán en caché entre actualizaciones';
+$lang['ionize_help_clear_cache'] = 'Elimina todos los archivos de cache.';
+$lang['ionize_help_article_allowed_tags'] = 'Etiquetas HTML permitidas en el contenido de los artículos';
+$lang['ionize_help_media_upload_mode'] = 'Si múltiples archivos se cuelgan, trate con Un archivo (no Flash)';
 
-$lang['ionize_text_no_thumbnails'] = 'No thumbnails are currently defined.';
-$lang['ionize_text_allowed_mimes'] = 'The following files types will be available for upload if checked.';
+$lang['ionize_text_no_thumbnails'] = 'Se han defnido miniaturas.';
+$lang['ionize_text_allowed_mimes'] = 'Activado, los siguientes tipos de archivos estarán disponibles para la carga.';
 
 
 
@@ -654,19 +654,19 @@ $lang['ionize_text_allowed_mimes'] = 'The following files types will be availabl
 | Admin : Themes
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_views_list'] = 'Current theme views list';
-$lang['ionize_title_view_edit'] = 'Edition';
-$lang['ionize_title_views_translations'] = 'Current theme static elements translation';
+$lang['ionize_title_views_list'] = 'Lista de vista de temas actual.';
+$lang['ionize_title_view_edit'] = 'Edición';
+$lang['ionize_title_views_translations'] = 'Actual traducción de elementos estáticos de temas';
 $lang['ionize_label_view_filename'] = 'Archivo';
-$lang['ionize_label_view_folder'] = 'Folder';
-$lang['ionize_label_view_name'] = 'Logical name';
+$lang['ionize_label_view_folder'] = 'Carpeta';
+$lang['ionize_label_view_name'] = 'Nombre lógico';
 $lang['ionize_label_view_type'] = 'Tipo';
-$lang['ionize_label_current_theme'] = 'Current theme';
+$lang['ionize_label_current_theme'] = 'Tema actual';
 
-$lang['ionize_select_no_type'] = '-- No type --';
-$lang['ionize_message_views_saved'] = 'Views settings saved';
+$lang['ionize_select_no_type'] = '-- Ningún tipo --';
+$lang['ionize_message_views_saved'] = 'Configuraciones de vista guardadas';
 
-$lang['ionize_message_view_saved'] = 'View saved';
+$lang['ionize_message_view_saved'] = 'Vista guardada';
 
 
 /*
@@ -674,52 +674,52 @@ $lang['ionize_message_view_saved'] = 'View saved';
 | Admin : Page
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_pages'] = 'Pages';
-$lang['ionize_title_create_page'] = 'Create page';
-$lang['ionize_title_new_page'] = 'New page';
-$lang['ionize_title_edit_page'] = 'Page edit';
-$lang['ionize_title_page_parent'] = 'Parent';
-$lang['ionize_title_sub_navigation'] = 'Sub Navigation';
+$lang['ionize_title_pages'] = 'Páginas';
+$lang['ionize_title_create_page'] = 'Crear página';
+$lang['ionize_title_new_page'] = 'Nueva página';
+$lang['ionize_title_edit_page'] = 'Editar página';
+$lang['ionize_title_page_parent'] = 'Padre';
+$lang['ionize_title_sub_navigation'] = 'Sub Navegación';
 
-$lang['ionize_title_help_articles_types'] = 'About Types';
+$lang['ionize_title_help_articles_types'] = 'Sobre Tipos';
 
-$lang['ionize_label_page_online'] = 'Page Online';
-$lang['ionize_label_page_content_online'] = 'Online for this language';
-$lang['ionize_label_articles'] = 'Articles';
-$lang['ionize_label_add_article'] = 'Add Article';
-$lang['ionize_label_appears'] = 'Display in nav';
-$lang['ionize_label_link'] = 'Link';
-$lang['ionize_label_pagination_nb'] = 'Articles / page';
-$lang['ionize_label_article_list_template'] = 'List view';
-$lang['ionize_label_page_delete_date'] = 'Page delete date';
+$lang['ionize_label_page_online'] = 'Página enlínea';
+$lang['ionize_label_page_content_online'] = 'Enlínea para este lenguaje';
+$lang['ionize_label_articles'] = 'Artículos';
+$lang['ionize_label_add_article'] = 'Añadir artículo';
+$lang['ionize_label_appears'] = 'Mostrar en navegación';
+$lang['ionize_label_link'] = 'Enlace';
+$lang['ionize_label_pagination_nb'] = 'Artículos / página';
+$lang['ionize_label_article_list_template'] = 'Ver lista';
+$lang['ionize_label_page_delete_date'] = 'Fecha de eliminación de página';
 $lang['ionize_label_menu'] = 'Menu';
-$lang['ionize_label_home_page'] = 'Home page';
-$lang['ionize_label_sitemap_priority'] = 'Sitemap priority';
-$lang['ionize_label_article_reorder'] = 'Reorder Articles';
-$lang['ionize_label_date_asc'] = 'Date Ascendant';
-$lang['ionize_label_date_desc'] = 'Date Descendant';
-$lang['ionize_label_no_sub_navigation'] = '-- No one --';
+$lang['ionize_label_home_page'] = 'Página de inicio';
+$lang['ionize_label_sitemap_priority'] = '¨Prioridad Sitemap';
+$lang['ionize_label_article_reorder'] = 'Reordenar artículos';
+$lang['ionize_label_date_asc'] = 'Fecha ascendente';
+$lang['ionize_label_date_desc'] = 'Fecha descendente';
+$lang['ionize_label_no_sub_navigation'] = '-- Ninguno --';
 
-$lang['ionize_button_reorder'] = 'Reorder';
+$lang['ionize_button_reorder'] = 'Reorden';
 
-$lang['ionize_select_default_view'] = '-- Default view --';
-$lang['ionize_select_everyone'] = '-- Everyone --';
+$lang['ionize_select_default_view'] = '-- Vista predeterminada --';
+$lang['ionize_select_everyone'] = '-- Todos --';
 
-$lang['ionize_message_page_name_exists'] = 'This page already exists!';
-$lang['ionize_message_page_url_exists'] = 'One page with a same URL already exists !';
-$lang['ionize_message_page_saved'] = 'Page saved';
-$lang['ionize_message_page_not_saved'] = 'Page not saved';
-$lang['ionize_message_page_not_exist'] = 'Page don\'t exist';
-$lang['ionize_message_page_ordered'] = 'Page ordered';
-$lang['ionize_message_page_needs_url_or_title'] = 'Please fill title or URL for the default language !';
-$lang['ionize_message_drop_only_article'] = 'Please drop only an article!';
-$lang['ionize_message_articles_ordered'] = 'Articles ordered !';
+$lang['ionize_message_page_name_exists'] = 'Esta página ya existe!';
+$lang['ionize_message_page_url_exists'] = 'Actualmente existe una página con el mismo URL !';
+$lang['ionize_message_page_saved'] = 'Página Guardada';
+$lang['ionize_message_page_not_saved'] = 'Página no guardada';
+$lang['ionize_message_page_not_exist'] = 'Página no existe';
+$lang['ionize_message_page_ordered'] = 'Página ordenada';
+$lang['ionize_message_page_needs_url_or_title'] = 'Por favor complete título o URL para el idioma predeterminado !';
+$lang['ionize_message_drop_only_article'] = 'Favor arrastre solo un artículo!';
+$lang['ionize_message_articles_ordered'] = 'Artículos ordenados !';
 
-$lang['ionize_help_page_online'] = 'Is this page online?';
-$lang['ionize_help_page_content_online'] = 'Is this page online for this language?';
-$lang['ionize_help_page_url'] = 'Page\'s URL. Must be unique';
-$lang['ionize_help_page_link'] = 'Internal or External HTTP link. Replace the default page link';
-$lang['ionize_help_pagination'] = 'If > 0, activate the pagination of article.';
+$lang['ionize_help_page_online'] = '¿Está esta página enlinea?';
+$lang['ionize_help_page_content_online'] = '¿Esta página está en línea para este lenguaje?';
+$lang['ionize_help_page_url'] = 'URL de la página. Tiene que se única';
+$lang['ionize_help_page_link'] = 'Interno o externo enlace HTTP. Remplace el enlace predeterminado de la página';
+$lang['ionize_help_pagination'] = 'Si > 0, activar la paginación de artículo.';
 $lang['ionize_help_article_list_template'] = 'If more than 1 article on the page, use of this view to display each article';
 $lang['ionize_help_article_template'] = 'View used to display the articles in standalone mode OR if just one article in this page';
 $lang['ionize_help_appears'] = 'Does the page appears in the navigation menu ?';
@@ -838,44 +838,44 @@ $lang['ionize_label_ordering_after'] = 'después...';
 $lang['ionize_label_content_for_lang'] = 'Contenido';
 $lang['ionize_label_online_for_lang'] = 'Online';
 $lang['ionize_label_actions'] = 'Actions';
-$lang['ionize_label_pages'] = 'Pages';
-$lang['ionize_label_drag_to_page'] = 'Drag to a page';
-$lang['ionize_label_article_edit_context'] = 'Configuracioens';
+$lang['ionize_label_pages'] = 'Páginas';
+$lang['ionize_label_drag_to_page'] = 'Arrastrar a una página';
+$lang['ionize_label_article_edit_context'] = 'Configuraciones';
 $lang['ionize_label_article_filter'] = 'Filtro';
-$lang['ionize_label_article_context_edition'] = 'Editing context';
+$lang['ionize_label_article_context_edition'] = 'Editar contexto';
 
-$lang['ionize_message_article_not_saved'] = 'Article not saved : Missing data';
-$lang['ionize_message_article_saved'] = 'Article saved';
-$lang['ionize_message_article_name_exists'] = 'One article with the same name exists already!';
-$lang['ionize_message_article_url_exists'] = 'One article with the same URL exists already!';
-$lang['ionize_message_article_ordered'] = 'Article ordored';
-$lang['ionize_message_article_duplicate_no_name_change'] = 'The duplicated article must have another name!';
-$lang['ionize_message_article_duplicated'] = 'Article duplicated';
-$lang['ionize_message_article_not_duplicated'] = 'Article not duplicated';
-$lang['ionize_message_article_needs_url_or_title'] = 'Please fill title or URL for the default language !';
-$lang['ionize_message_drop_only_page'] = 'Please drop only a page!';
-$lang['ionize_message_parent_page_unlinked'] = 'Page and Article successfuly unlinked';
-$lang['ionize_confirm_article_page_unlink'] = 'Unlink this page from this article?';
-$lang['ionize_message_article_already_linked_to_page'] = 'Article already linked to page';
-$lang['ionize_message_article_linked_to_page'] = 'Article linked to page';
-$lang['ionize_message_article_context_saved'] = 'Article settings saved';
-$lang['ionize_message_article_lang_copied'] = 'Lang data copied. Save please !';
-$lang['ionize_message_article_main_parent_saved'] = 'Main Parent Page saved !';
+$lang['ionize_message_article_not_saved'] = 'Artículo no guardado : Datos faltantes';
+$lang['ionize_message_article_saved'] = 'Artículo guardado';
+$lang['ionize_message_article_name_exists'] = 'Un artículo con el mismo nombre ya existe!';
+$lang['ionize_message_article_url_exists'] = 'Un artículo con el mismo URL ya existe!';
+$lang['ionize_message_article_ordered'] = 'Artículo Ordenado';
+$lang['ionize_message_article_duplicate_no_name_change'] = 'El artículo dubplicado necesita otro nombre!';
+$lang['ionize_message_article_duplicated'] = 'Artículo duplicado';
+$lang['ionize_message_article_not_duplicated'] = 'Artículo no se duplica';
+$lang['ionize_message_article_needs_url_or_title'] = 'Por favor, rellene título o URL para el idioma predeterminado !';
+$lang['ionize_message_drop_only_page'] = 'Favor arrastran solo una página!';
+$lang['ionize_message_parent_page_unlinked'] = 'Página y Artículo desenlazado completo';
+$lang['ionize_confirm_article_page_unlink'] = 'Desenlazar esta página a este artículo?';
+$lang['ionize_message_article_already_linked_to_page'] = 'Artículo ya está enlazado a página';
+$lang['ionize_message_article_linked_to_page'] = 'Artículo enlazado a página';
+$lang['ionize_message_article_context_saved'] = 'Configuración de Artículo guardado';
+$lang['ionize_message_article_lang_copied'] = 'Datos de lenguaje copiado. Favor guardar !';
+$lang['ionize_message_article_main_parent_saved'] = 'Página Padre Principal guardada !';
 
 
 // Inline help
-$lang['ionize_help_article_online'] = 'Is this article online?';
-$lang['ionize_help_article_content_online'] = 'Is this content online?';
-$lang['ionize_help_indexed'] = 'If checked, the article content will be fulltext indexed (ready for internal search)';
-$lang['ionize_help_article_link'] = 'HTTP link. Can be used with the link tag';
-$lang['ionize_help_articles_types'] = 'Type of article. Useful for distinguish articles in a page view';
+$lang['ionize_help_article_online'] = 'Está este artículo en línea?';
+$lang['ionize_help_article_content_online'] = 'Está este contenido en línea?';
+$lang['ionize_help_indexed'] = 'Si se marca, el contenido del artículo será indexado de texto completo (listo para la búsqueda interna)';
+$lang['ionize_help_article_link'] = 'HTTP link. Se puede utilizar con la etiqueta de enlace';
+$lang['ionize_help_articles_types'] = 'Tipo de artículo. Útil para distinguir artículos en una vista de página';
 $lang['ionize_help_article_window_title'] = 'Title of the browser window';
-$lang['ionize_help_article_context'] = 'Edit the article\'s page context data';
-$lang['ionize_help_missing_translated_content'] = 'Some language content translation is missing';
-$lang['ionize_help_orphan_article'] = 'Orphan article. Not linked to any page.';
-$lang['ionize_help_article_filter'] = 'Filter articles (not fully implemented)';
+$lang['ionize_help_article_context'] = 'Editar los datos de contexto de la página artículo.';
+$lang['ionize_help_missing_translated_content'] = 'Falta algún contenido de traducción.';
+$lang['ionize_help_orphan_article'] = 'Artículo huerfano. No existe link a ninguna página.';
+$lang['ionize_help_article_filter'] = 'Filtrar artículos (no esta completamente implementado)';
 
-$lang['ionize_button_duplicate_article'] = 'Duplicate article';
+$lang['ionize_button_duplicate_article'] = 'Artículo dublicado';
 
 
 /*
@@ -884,15 +884,15 @@ $lang['ionize_button_duplicate_article'] = 'Duplicate article';
 |--------------------------------------------------------------------------
 */
 $lang['ionize_title_categories'] = 'Categorias';
-$lang['ionize_title_category_new'] = 'New category';
-$lang['ionize_title_category_edit'] = 'Category : Edit';
-$lang['ionize_title_category_exist'] = 'Existing categories';
+$lang['ionize_title_category_new'] = 'Nueva categoría';
+$lang['ionize_title_category_edit'] = 'Categoría : Editar';
+$lang['ionize_title_category_exist'] = 'Categorías existentes';
 
 $lang['ionize_title_types'] = 'Tipos';
-$lang['ionize_title_types_exist'] = 'Existing types';
+$lang['ionize_title_types_exist'] = 'Tipos existentes';
 $lang['ionize_title_type_new'] = 'Nuevo tipo';
-$lang['ionize_title_type_edit'] = 'Article type edit';
-$lang['ionize_title_extend_table_field'] = 'Table field';
+$lang['ionize_title_type_edit'] = 'Editar tipo de artículo';
+$lang['ionize_title_extend_table_field'] = 'Campo de tabla';
 
 $lang['ionize_label_categories'] = 'Categorias';
 $lang['ionize_label_category'] = 'Categoría';
