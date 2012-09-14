@@ -14,22 +14,22 @@
 */
 
 // Main library language elements
-$lang['connect_login_failed'] = 'The login information you provided could not be authentificated. Either the username or the password you entered are wrong. Please try again.';
-$lang['connect_access_denied'] = 'You have been denied access to %s';
-$lang['connect_missing_parameters']	= 'The parameter(s) %s was missing';
-$lang['connect_parameter_error'] = 'The parameter passed to %s is wrong.';
-$lang['connect_user_save_impossible'] = 'We were not able to save your data into our system, please try again or contact us.';
-$lang['connect_user_already_exists'] = 'There is already a user existing in our system with the same data. Please try to use another username or email address.';
-$lang['connect_blocked'] = 'You have been blocked because of too many failed logins, please try again %s';
-$lang['connect_cannot_ban_yourself'] = 'You cannot ban yourself.';
-$lang['connect_register_success'] = 'You have successfully registered.';
-$lang['connect_register_success_verify_user'] = 'You have successfully registered but we must verify your data. An e-mail has been sent to you, please check it and click the activation link in the message to activate your account.';
+$lang['connect_login_failed'] = 'La información de acceso que ha proporcionado no puede ser authentificated. O bien el nombre de usuario o la contraseña que ha introducido son incorrectos. Por favor, inténtalo de nuevo.';
+$lang['connect_access_denied'] = 'Se le ha negado el acceso a %s';
+$lang['connect_missing_parameters']	= 'Faltaba el parámetro (s)% ';
+$lang['connect_parameter_error'] = 'El parámetro %s es erroneo.';
+$lang['connect_user_save_impossible'] = 'No hemos sido capaces de guardar sus datos en nuestro sistema, por favor inténtelo de nuevo o contacte con nosotros.';
+$lang['connect_user_already_exists'] = 'Ya existe un usuario existente en nuestro sistema con los mismos datos. Por favor intenta utilizar otro nombre de usuario o la dirección de correo electrónico.';
+$lang['connect_blocked'] = 'Usted ha sido bloqueado debido a inicios de sesión fallidos de más, por favor, inténtelo de nuevo %s';
+$lang['connect_cannot_ban_yourself'] = 'No puedes prohibirte a ti.';
+$lang['connect_register_success'] = 'Te has registrado correctamente.';
+$lang['connect_register_success_verify_user'] = 'Has registrado correctamente pero hay que verificar sus datos. Un correo electrónico ha sido enviado a usted, por favor marque y haga clic en el enlace de activación en el mensaje para activar tu cuenta.';
 
 // Activation mail to Admin
 $lang['connect_admin_mail_subject'] = 'Registro';
 $lang['connect_admin_mail_title'] = 'Registro';
 $lang['connect_admin_mail_intro'] = 'Un usuario se ha registrado en el sitio.';
-$lang['connect_admin_mail_nom'] = 'Nomre';
+$lang['connect_admin_mail_nom'] = 'Nombre';
 $lang['connect_admin_mail_login'] = 'Ingreso';
 $lang['connect_admin_mail_email'] = 'Correo';
 $lang['connect_admin_mail_activation_link'] = 'Link de activación';
